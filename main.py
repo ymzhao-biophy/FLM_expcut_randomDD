@@ -1,0 +1,1 @@
+#cd /mnt/d/study/anomolous_diffusion/FLM_dd
