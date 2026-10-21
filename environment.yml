@@ -1,0 +1,11 @@
+name: flm
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - scipy
+  - matplotlib
+  - mpmath
+  - tqdm
+  - numpy
+prefix: /usrshome/zyiming/miniconda3/envs/flm

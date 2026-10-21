@@ -168,12 +168,12 @@ if __name__ == "__main__":
         print(f'for H={H},non-gaussian_parameter={ngp_vals}')
 
     plt.axhline(y=1.0 / alpha, color='k', linestyle='--', linewidth=1.2,
-                alpha=0.7, label=rf"$\Omega(\tau)=1/\alpha$")
+                alpha=0.7, label=rf"$\Omega(\Delta)=1/\alpha$")
     plt.xscale('log')    # x-axis in log scale
     plt.yscale('log')
     plt.ylim(0.1,10)
-    plt.xlabel(r"Lag time $\tau$")
-    plt.ylabel(r"Non-Gaussian parameter $\Omega(\tau)$")
+    plt.xlabel(r"Lag time $\Delta$")
+    plt.ylabel(r"Non-Gaussian parameter $\Omega(\Delta)$")
     plt.legend(loc="upper right")
     #plt.grid(True, which="both", alpha=0.3)
     plt.tight_layout()
