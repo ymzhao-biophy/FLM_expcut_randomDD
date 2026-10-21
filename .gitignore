@@ -12,3 +12,4 @@ data/
 *.eps
 *.png
 
+.Rhistory
